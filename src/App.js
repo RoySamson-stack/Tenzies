@@ -5,7 +5,10 @@ import {useState, useEffect} from "react"
 import Confetti from 'react-confetti'
 
 export default function App() {
-
+//put dots on the dice 
+//track the number of rolls
+//track the time it took to win 
+//save best time to local storage
 
     const [dice, setDice] = useState(allNewDice())
     const [tenzies, setTenzies] = useState(false)
